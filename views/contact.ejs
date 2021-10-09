@@ -1,0 +1,35 @@
+<%- include Partials/header.ejs %>
+    <!--navigation bar-->  
+    <%- include Partials/main_nav.ejs %>
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>You want to Contact us ? </title>
+</head>
+<body>
+
+<form action="http://faridfakori.com">
+<div align="center">
+<h1>Contact us :</h1>
+Enter your firstname:
+<input type="text" name="Userfirstname" size=35 maxlength=35 value="">
+</br></br>
+Enter your lastname:
+<input type="text" name="Userlastname" size=35 maxlength=35 value="">
+</br></br>
+Enter your Current Number:
+<input type="number" name="Usernumber" size=35 maxlength=35 value="">
+</br></br>
+Enter your EmailAddress:
+<input type="text" name="UseremailAddress" size=35 maxlength=35 value="">
+</br></br>
+Tell us your comments on my site
+<textarea name="Comments" cols=30 rows=4></textarea> </br> </br>
+
+<input type=submit value="Submit form">
+</div>
+</form>
+</body>
+</html>
+<%- include Partials/bottom_nav.ejs %>
+<%- include Partials/footer.ejs %>
